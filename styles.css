@@ -1,0 +1,95 @@
+/*HEADER NAVEGADOR */
+
+.main-nav {
+  /* margin: auto;
+  width: 50%;*/
+  margin-top: 10px;
+  /* width: 50%; */
+  list-style: none;
+  padding-left: 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #311d3d;
+}
+.main-nav__logo{
+  width: auto;
+  height: 150px;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+.main-nav__item {
+  display: inline-block;
+  font-family: 'Lobster', cursive;
+  font-family: 'Ubuntu', sans-serif;
+}
+.main-nav__item a {
+  color: #a39fa6;
+  padding: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/* Pseudo Clases */
+.main-nav__item a:hover {
+  color: whitesmoke;
+}
+.main-nav__item a:active {
+  color: #2b2a2b;
+}
+/* Pseudo Elementos */
+.main-nav__item a::after {
+  content: " | ";
+}
+
+
+/* MAIN */
+
+.main-section-div__foto {
+  width: auto;
+  height: 500px;
+  border-radius: 5px;
+  line-height: 1.5;
+}
+.main-section-div{
+  font-family: 'Lobster', cursive;
+  font-family: 'Ubuntu', sans-serif;    
+  font-size: 20px;
+  color: #555357;
+  line-height: 1.5;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* FOOTER */
+
+.footer-network__item {
+  display: inline-block;
+  font-family: 'Lobster', cursive;
+  font-family: 'Ubuntu', sans-serif; 
+}
+.footer-network__item h4{
+  color:gray;
+  padding: 50px;
+  text-decoration: none;
+}
+.footer-network__item a{
+  color: #a39fa6;
+  padding: 50px;
+  text-decoration: none;
+}
+.footer-network__item a:hover{
+  /* color: purple; */
+ /* box-shadow: 0 0 5px #311d3d, 
+  0 0 15px #311d3d, 
+  0 0 20px #311d3d, 
+  0 0 50px #311d3d; */
+  box-shadow:
+  1.6px 1.9px 2.1px -1px rgba(0, 0, 0, 0.09),
+  3.7px 4.4px 5px -1px rgba(0, 0, 0, 0.131),
+  6.6px 7.8px 8.9px -1px rgba(0, 0, 0, 0.161),
+  10.9px 13px 14.8px -1px rgba(0, 0, 0, 0.189),
+  18px 21.4px 24.3px -1px rgba(0, 0, 0, 0.219),
+  31.4px 37.4px 42.5px -1px rgba(0, 0, 0, 0.26),
+  68px 81px 92px -1px rgba(0, 0, 0, 0.35);
+}
